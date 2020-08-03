@@ -1,6 +1,15 @@
 # OXID Configurations import and export module 
 
-Tools to export, backup and import OXID eShop shop settings via the built in oxid console.  
+Tools to export, backup and import OXID eShop shop and theme settings via the built in oxid console.  
+
+
+# Usage 
+
+## Export shop and theme settings from a given environment 
+``` vendor/bin/oe-console config:export -e <name of environment> ```
+
+## Import shop and theme settings from a given environment: 
+``` vendor/bin/oe-console config:import -e <name of environment> ```
 
 # Install
 
@@ -20,13 +29,13 @@ Tools to export, backup and import OXID eShop shop settings via the built in oxi
   ```
 ## Install from VCS
 
-* Require `oxid-professional-services/oxid-modules-config`
+* Require `oxid-professional-services/oxid-shop-config`
 
 # Compatibility table
 
 
 | OXID Eshop Version| OXID Modules Config Version | 
 |-------------------|-----------------------------|
-|6.2                | 0.1                         | 
+|6.2                | 0.1.1                       | 
 
 
