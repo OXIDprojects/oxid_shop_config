@@ -1,0 +1,9 @@
+services:
+  OxidProfessionalServices\OxidShopConfig\Command\Import:
+    class: OxidProfessionalServices\OxidShopConfig\Command\ImportCommand
+    tags:
+    - { name: 'console.command', command: 'config:import' }
+  OxidProfessionalServices\OxidShopConfig\Command\Export:
+    class: OxidProfessionalServices\OxidShopConfig\Command\ExportCommand
+    tags:
+    - { name: 'console.command', command: 'config:export' }

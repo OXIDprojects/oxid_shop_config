@@ -1,0 +1,23 @@
+{
+  "name": "oxid-professional-services/oxid-shop-config",
+  "description": "OXID eshop Shop configurations importer and exporter",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "eShop", "oxconfig", "config", "import", "export"],
+  "license": "GPL-3.0-only",
+  "require": {
+    "symfony/yaml": "^2.0 || ^3.0",
+    "oxid-esales/oxideshop-ce": "^v6.0.0"
+  },
+  "require-dev": {
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "oxps/oxidshopconfig"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "OxidProfessionalServices\\OxidShopConfig\\": "../../../source/modules/oxps/oxidshopconfig"
+    }
+  }
+}

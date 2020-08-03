@@ -1,0 +1,382 @@
+Meta:
+    sDefaultsVersion: "1.3"
+GeneralShopSettings:
+    aCachableClasses:
+        - info
+        - start
+        - details
+        - alist
+        - vendorlist
+    aCacheViews:
+        - start
+        - alist
+        - details
+    aCMSfolder:
+        CMSFOLDER_EMAILS: '#706090'
+        CMSFOLDER_USERINFO: '#303030'
+        CMSFOLDER_NONE: '#904040'
+    aCurrencies:
+        - 'EUR@ 1.00@ ,@ .@ €@ 2'
+        - 'GBP@ 0.8565@ .@  @ £@ 2'
+        - 'CHF@ 1.4326@ ,@ .@ <small>CHF</small>@ 2'
+        - 'USD@ 1.2994@ .@  @ $@ 2'
+    aDetailImageSizes:
+        oxpic1: '380*340'
+        oxpic2: '380*340'
+        oxpic3: '380*340'
+        oxpic4: '380*340'
+        oxpic5: '380*340'
+        oxpic6: '380*340'
+        oxpic7: '380*340'
+        oxpic8: '380*340'
+        oxpic9: '380*340'
+        oxpic10: '380*340'
+        oxpic11: '380*340'
+        oxpic12: '380*340'
+    aHomeCountry:
+        - a7c40f631fc920687.20179984
+    aInterfaceProfiles:
+        Standard: '10'
+        1024x768: '10'
+        1280x1024: '17'
+        1600x1200: '22'
+    aLanguageParams:
+        de:
+            baseId: 0
+            active: '1'
+            sort: '1'
+            default: '1'
+        en:
+            baseId: 1
+            active: '0'
+            sort: '2'
+    aLanguages:
+        de: Deutsch
+        en: English
+    aLanguageSSLURLs:
+        - ''
+        - null
+    aLanguageURLs:
+        - ''
+        - null
+    aLexwareVAT:
+        1: '15'
+        2: '7'
+        3: '16'
+        4: '20'
+        5: '10'
+    aLogSkipTags: {  }
+    aMemcachedServers:
+        - localhost@11211@100
+    aMustFillFields:
+        - oxuser__oxfname
+        - oxuser__oxlname
+        - oxuser__oxstreet
+        - oxuser__oxstreetnr
+        - oxuser__oxzip
+        - oxuser__oxcity
+        - oxuser__oxcountryid
+        - oxaddress__oxfname
+        - oxaddress__oxlname
+        - oxaddress__oxstreet
+        - oxaddress__oxstreetnr
+        - oxaddress__oxzip
+        - oxaddress__oxcity
+        - oxaddress__oxcountryid
+    aOrderfolder:
+        ORDERFOLDER_NEW: '#0000FF'
+        ORDERFOLDER_FINISHED: '#0A9E18'
+        ORDERFOLDER_PROBLEMS: '#FF0000'
+    aSearchCols:
+        - oxtitle
+        - oxshortdesc
+        - oxsearchkeys
+        - oxartnum
+        - oxtags
+    aSEOReservedWords:
+        - admin
+        - core
+        - export
+        - modules
+        - out
+        - setup
+        - views
+    aSkipTags:
+        - der
+        - die
+        - das
+        - was
+        - wie
+        - wer
+        - in
+        - sie
+        - du
+        - aus
+        - von
+        - des
+        - hat
+        - einen
+        - eine
+        - ist
+        - einem
+        - dann
+        - haben
+        - dieser
+        - dieser
+        - dem
+        - sich
+        - er
+        - ich
+        - was
+        - für
+        - und
+        - nur
+        - auf
+        - an
+        - this
+        - that
+        - if
+        - you
+        - the
+    aSortCols:
+        - oxtitle
+        - oxvarminprice
+    blAllowNegativeStock: true
+    blAllowUnevenAmounts: false
+    blAutoIcons: true
+    blAutoSearchOnCat: false
+    blBasketExcludeEnabled:
+        str: '0'
+    blBidirectCross: false
+    blCacheActive: false
+    blCalculateDelCostIfNotLoggedIn: false
+    blCheckForUpdates: true
+    blCheckTemplates: true
+    blClearCacheOnLogout: false
+    blConfirmAGB: false
+    blDeliveryVatOnTop: false
+    blDisableNavBars: false
+    blDontShowEmptyCategories: false
+    blEnableDownloads: true
+    blEnableSeoCache: true
+    blEnterNetPrice: false
+    blExclNonMaterialFromDelivery: false
+    blExpirationEmailSent: true
+    blFacebookConfirmEnabled: true
+    blFbCommentsEnabled:
+        str: '0'
+    blFbFacepileEnabled:
+        str: '0'
+    blFbInviteEnabled:
+        str: '0'
+    blFbLikeEnabled:
+        str: '0'
+    blFbShareEnabled:
+        str: '0'
+    blGBModerate: false
+    blInlineImgEmail: false
+    blInvitationsEnabled:
+        str: '0'
+    blLoadDynContents: 'true'
+    blLoadVariants: true
+    blLogChangesInAdmin: false
+    blLogging: false
+    blMallCustomPrice: true
+    blMallPriceAdditionPercent: true
+    blNewArtByInsert: true
+    blOrderDisWithoutReg: false
+    blOrderOptInEmail: true
+    blOtherCountryOrder: true
+    blOverrideZeroABCPrices: false
+    blPaymentVatOnTop: false
+    blPerfNoBasketSaving: false
+    blPsBasketReservationEnabled:
+        str: '0'
+    blPsLoginEnabled:
+        str: '0'
+    blSearchUseAND: false
+    blShippingCountryVat: false
+    blShopStopped: true
+    blShowCookiesNotification: false
+    blShowNetPrice: false
+    blShowOrderButtonOnTop: false
+    blShowRememberMe: true
+    blShowSorting: true
+    blShowTags: true
+    blShowVariantReviews: false
+    blShowVATForDelivery: true
+    blShowVATForPayCharge: true
+    blShowVATForWrapping: false
+    blSkipDebitOldBankInfo: false
+    blStockOffDefaultMessage: true
+    blStockOnDefaultMessage: true
+    blStoreCreditCardInfo: false
+    blStoreIPs: false
+    blUseLDAP: false
+    blUseMultidimensionVariants: true
+    blUseStock: true
+    blUseTimeCheck: false
+    blVariantInheritAmountPrice: false
+    blVariantParentBuyable: false
+    blVariantsSelection: false
+    blVatIdCheckDisabled: false
+    blWarnOnSameArtNums: true
+    blWrappingVatOnTop: false
+    bl_perfCalcVatOnlyForBasketOrder: false
+    bl_perfLoadAccessoires: true
+    bl_perfLoadAktion: true
+    bl_perfLoadAttributes: false
+    bl_perfLoadCatTree: true
+    bl_perfLoadCrossselling: true
+    bl_perfLoadCurrency: true
+    bl_perfLoadCustomerWhoBoughtThis: true
+    bl_perfLoadDelivery: true
+    bl_perfLoadDiscounts: true
+    bl_perfLoadLanguages: true
+    bl_perfLoadManufacturerTree: true
+    bl_perfLoadNews: true
+    bl_perfLoadNewsOnlyStart: true
+    bl_perfLoadPrice: true
+    bl_perfLoadPriceForAddList: true
+    bl_perfLoadReviews: true
+    bl_perfLoadSelectLists: false
+    bl_perfLoadSelectListsInAList: false
+    bl_perfLoadSimilar: true
+    bl_perfLoadTreeForSearch: true
+    bl_perfParseLongDescinSmarty: false
+    bl_perfShowActionCatArticleCnt: false
+    bl_perfUseSelectlistPrice: false
+    bl_rssBargain: false
+    bl_rssCategories: true
+    bl_rssNewest: true
+    bl_rssRecommListArts: false
+    bl_rssRecommLists: false
+    bl_rssSearch: true
+    bl_rssTopShop: true
+    bl_showFbConnect:
+        str: '0'
+    dDefaultVAT:
+        num: '19'
+    dPointsForInvitation: '10'
+    dPointsForRegistration: '10'
+    iAdminLogTime: '60'
+    iAttributesPercent: '70'
+    iCacheLifeTime: '36000'
+    iCntofMails: '20'
+    iDefaultCacheTTL: ''
+    iDefSeoLang: '0'
+    iDownloadExpirationTime: '24'
+    iExportNrofLines: '250'
+    iExportTickerRefresh: '1'
+    iFailedOnlineCallsCount:
+        int: '0'
+    iImportNrofLines: '100'
+    iImportTickerRefresh: '1'
+    iLinkExpirationTime: '168'
+    IMA: '20000000000000'
+    iMallMode: '1'
+    iMallPriceAddition: '0'
+    iMaxDownloadsCount: '0'
+    iMaxDownloadsCountUnregistered: '1'
+    iMaxGBEntriesPerDay: '3'
+    IMD: '20000000000000'
+    iMinOrderPrice: ''
+    IMS: '1'
+    iNewestArticlesMode: '1'
+    iNrofCrossellArticles: '5'
+    iNrofCustomerWhoArticles: '5'
+    iNrofNewcomerArticles: '4'
+    iNrofSimilarArticles: '5'
+    iPsBasketReservationTimeout: '1200'
+    iRatingLogsTimeout: ''
+    iRssItemsCount: '20'
+    iServerTimeShift: ''
+    iSessionTimeout: '60'
+    iSessionTimeoutAdmin: ''
+    iSmartyPhpHandling: '0'
+    iTimeToUpdatePrices:
+        int: '1435150490'
+    iTop5Mode: '1'
+    iUseGDVersion: '2'
+    sAdditionalServVATCalcMethod: biggest_net
+    sCacheBackend: OXID
+    sCacheDir: cache
+    sCatThumbnailsize: '748*150'
+    sCntOfNewsLoaded: '1'
+    sCSVSign: ;
+    sCustomTheme: 123tv
+    sDecimalSeparator: ','
+    sDefaultCacheConnector: ''
+    sDefaultImageQuality: '75'
+    sDefaultLang: '0'
+    sDownloadsDir: out/downloads
+    sFbAppId: ''
+    sFbSecretKey: ''
+    sGiCsvFieldEncloser: '"'
+    sHost: 'https://txms.gzs.de:51384/'
+    sIconsize: '87*87'
+    sLargeCustPrice: '100'
+    sLocalDateFormat: ISO
+    sLocalTimeFormat: ISO
+    sMerchantID: ''
+    sMidlleCustPrice: '40'
+    sPaymentPwd: ''
+    sPaymentUser: ''
+    sSEOSeparator: ''
+    sSEOuprefix: ''
+    sShopCountry: de
+    sShopVar: ''
+    sStockWarningLimit: '10'
+    sTagList: '1421859561'
+    sTagSeparator: ','
+    sTheme: azure
+    sThumbnailsize: '185*150'
+    sUtilModule: ''
+    sVatIdCheckInterfaceWsdl: ''
+    sZoomImageSize: '665*665'
+theme:
+    azure:
+        aDetailImageSizes:
+            oxpic1: '380*340'
+            oxpic2: '380*340'
+            oxpic3: '380*340'
+            oxpic4: '380*340'
+            oxpic5: '380*340'
+            oxpic6: '380*340'
+            oxpic7: '380*340'
+            oxpic8: '380*340'
+            oxpic9: '380*340'
+            oxpic10: '380*340'
+            oxpic11: '380*340'
+            oxpic12: '380*340'
+        aNrofCatArticles:
+            - '10'
+            - '20'
+            - '50'
+            - '100'
+        aNrofCatArticlesInGrid:
+            - '12'
+            - '16'
+            - '24'
+            - '32'
+        blShowBirthdayFields: true
+        blShowListDisplayType: true
+        bl_showCompareList: true
+        bl_showGiftWrapping: true
+        bl_showListmania: true
+        bl_showVouchers: true
+        bl_showWishlist: true
+        iNewBasketItemMessage:
+            select: '1'
+        iTopNaviCatCount: '4'
+        sCatIconsize: '168*100'
+        sCatPromotionsize: '370*107'
+        sCatThumbnailsize: '748*150'
+        sDefaultListDisplayType:
+            select: infogrid
+        sIconsize: '87*87'
+        sManufacturerIconsize: '100*100'
+        sStartPageListDisplayType:
+            select: infogrid
+        sThumbnailsize: '185*150'
+        sZoomImageSize: '665*665'
