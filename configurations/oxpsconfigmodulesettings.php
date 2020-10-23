@@ -8,6 +8,7 @@ return array(
     //because they are generated or sensible in any way
     //TODO: document them
     'excludeFields'                 => array(
+        'activeModules',
         'aServersData',
         'blEnableIntangibleProdAgreement',
         'blShowTSCODMessage',
